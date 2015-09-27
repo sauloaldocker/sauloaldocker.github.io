@@ -1,5 +1,18 @@
-Time Zone: Europe/London
+"Time Zone": "Europe/London"
 encoding: utf-8
 lsi: true
 title: sauloaldocker
 url: http://sauloaldocker.github.io
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "posts"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "pages"
